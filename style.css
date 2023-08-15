@@ -4,8 +4,40 @@
     font-family: Roboto, Arial, sans-serif;  
 }
 
+.header,
+.top,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+
 /* Section 1 */
-.header {
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 18px;
+    /* Flexbox Properties */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+/* Section 2 */
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
 
 }
 
@@ -15,7 +47,7 @@
 }
 
 
-/* Section 2 */
+/* Section 3 */
 .info {
 
 }
@@ -26,10 +58,14 @@
 }
 
 
-/* Section 3 */
-
-
 /* Section 4 */
 
+.quote {
+    background-color: #E5E7EB;
+}
 
 
+/* Section 5 */
+
+
+/* Section 6 */
