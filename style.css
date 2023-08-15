@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 18px;
     font-family: Roboto, Arial, sans-serif;  
 }
 
@@ -65,6 +66,11 @@ p.hero2 {
 /* Section 3 */
 .info {
 
+}
+
+.info h1 {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .box {
