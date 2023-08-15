@@ -5,6 +5,13 @@
     font-family: Roboto, Arial, sans-serif;  
 }
 
+body {
+    /* Flexbox Properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header,
 .top,
 .footer {
@@ -16,33 +23,54 @@ button {
     color: white;
     background-color: #3882F6;
     font-size: 18px;
+    font-weight: bold;
     margin: 10px;
     padding: 8px 16px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 
 /* Section 1 */
 .header {
+    width: 100%;
+    /* Flexbox Properties */
+    display: flex;
+    justify-content: flex-start;
+}
 
+.logo {
+    font-weight: bold;
+    margin-right: auto;
+    padding: 16px;
 }
 
 ul {
     margin: 0px;
-    padding: 0px;
+    padding: 16px;
     list-style: none;
     font-size: 18px;
     color: #E5E7EB;
     /* Flexbox Properties */
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
 }
 
 
 /* Section 2 */
 .top {
+    padding: 100px 10px;
+    /* Flexbox Properties */
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
 
+.top_content {
+    /* Flexbox Properties */
+    flex: 1;
 }
 
 h1.hero {
@@ -55,27 +83,60 @@ p.hero2 {
     font-size: 18px;
 }
 
+.top_img {
+    height: auto;
+    /* Flexbox Properties */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .placeholder {
     height: 200px;
     width: 400px;
     color: white;
     background-color: gray;
+    /* Flexbox Properties */
+    flex 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /* Section 3 */
 .info {
-
+    /* Flexbox Properties */
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info h1 {
+    padding: 50px;
     font-weight: bold;
     font-size: 24px;
 }
 
+.examples {
+    flex: auto;
+    /* Flexbox Properties */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px
+}
+
+.container {
+    flex: 1 1 150px;
+}
+
 .box {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 
