@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 .header,
 .top,
 .footer {
@@ -32,6 +32,7 @@ button {
 
 /* Section 1 */
 .header {
+    padding: 0px;
     width: 100%;
     /* Flexbox Properties */
     display: flex;
