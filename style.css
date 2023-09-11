@@ -66,11 +66,11 @@ button {
 
 
 /* Section 1: Header */
-
 .flex_header {
     /* Flexbox Properties */
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 
 .logo {
@@ -129,7 +129,6 @@ ul {
 
 
 /* Section 3: Info */
-
 .section.info {
     flex-direction: column;
     align-items: center;
@@ -175,7 +174,6 @@ ul {
 
 
 /* Section 4: Quote */
-
 .flex_quote {
     padding: 100px 0;
     /* Flexbox Properties */
